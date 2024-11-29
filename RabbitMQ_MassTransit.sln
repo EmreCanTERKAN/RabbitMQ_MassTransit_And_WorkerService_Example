@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35521.163 d17.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_MassTransit_Publisher", "RabbitMQ_MassTransit_Publisher\RabbitMQ_MassTransit_Publisher.csproj", "{43C2EDC9-0FF9-4150-A695-9B772D13B78E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_MassTransit_Consumer", "RabbitMQ_MassTransit_Consumer\RabbitMQ_MassTransit_Consumer.csproj", "{4AC467D1-C6AA-41E4-84E7-3FE4C511D9F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_MassTransit_Shared", "RabbitMQ_MassTransit_Shared\RabbitMQ_MassTransit_Shared.csproj", "{29C048F2-DBAF-42B7-A0A1-7E0ADCC10E06}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_MassTransit_WorkerService.Publisher", "RabbitMQ_MassTransit_WorkerService.Publisher\RabbitMQ_MassTransit_WorkerService.Publisher.csproj", "{1E093068-8EA0-4A85-BF6A-AB66167DCAE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ_MassTransit_WorkerService.Consumer", "RabbitMQ_MassTransit_WorkerService.Consumer\RabbitMQ_MassTransit_WorkerService.Consumer.csproj", "{8BE36BA7-3EED-4E6D-A3CF-F824862C1FBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{43C2EDC9-0FF9-4150-A695-9B772D13B78E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43C2EDC9-0FF9-4150-A695-9B772D13B78E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43C2EDC9-0FF9-4150-A695-9B772D13B78E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43C2EDC9-0FF9-4150-A695-9B772D13B78E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4AC467D1-C6AA-41E4-84E7-3FE4C511D9F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AC467D1-C6AA-41E4-84E7-3FE4C511D9F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AC467D1-C6AA-41E4-84E7-3FE4C511D9F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AC467D1-C6AA-41E4-84E7-3FE4C511D9F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29C048F2-DBAF-42B7-A0A1-7E0ADCC10E06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29C048F2-DBAF-42B7-A0A1-7E0ADCC10E06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29C048F2-DBAF-42B7-A0A1-7E0ADCC10E06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29C048F2-DBAF-42B7-A0A1-7E0ADCC10E06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E093068-8EA0-4A85-BF6A-AB66167DCAE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E093068-8EA0-4A85-BF6A-AB66167DCAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E093068-8EA0-4A85-BF6A-AB66167DCAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E093068-8EA0-4A85-BF6A-AB66167DCAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BE36BA7-3EED-4E6D-A3CF-F824862C1FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BE36BA7-3EED-4E6D-A3CF-F824862C1FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BE36BA7-3EED-4E6D-A3CF-F824862C1FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BE36BA7-3EED-4E6D-A3CF-F824862C1FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
